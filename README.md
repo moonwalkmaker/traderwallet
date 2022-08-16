@@ -2,11 +2,11 @@
 
 TraderWallet is building a non-custodial crypto wallet with advanced features including a built-in contract scanner, sniper bot, buy locks, and more.
 
-We have partnered with MoonWalk Financial to build, develop and design this ground-breaking piece of technology. Please email rob@moonwalk.financial or charlie@moonwalk.financial with any questions.
-
 In the spirit of transparency for our community, we are making our GitHub public so you can monitor our progress and development. 
 
-Follow the instructions below to launch the TraderWallet application and view progress of the project towards the first milestone of the lite wallet.  
+Follow the instructions below to launch the TraderWallet application and view progress of the project towards the first milestone of the lite wallet. 
+
+We have partnered with MoonWalk Financial to build, develop and design this ground-breaking piece of technology. Please email rob@moonwalk.financial or charlie@moonwalk.financial with any questions.
 
 # Flutter project
 
