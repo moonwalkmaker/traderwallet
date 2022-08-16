@@ -30,9 +30,9 @@ class MyApp extends StatelessWidget {
             backgroundColor: Colors.blueGrey,
             bottom: const TabBar(
               tabs: [
-                Tab(text: 'Ether Wallet', icon: FaIcon(FontAwesomeIcons.wallet)),
-                Tab(text: 'Collateralize', icon: FaIcon(Icons.star)),
-                Tab(text: 'Repay', icon: Icon(Icons.published_with_changes))
+                Tab(text: 'TraderWallet', icon: FaIcon(FontAwesomeIcons.wallet)),
+                Tab(text: 'Bot', icon: FaIcon(Icons.star)),
+                Tab(text: 'Scanner', icon: Icon(Icons.published_with_changes))
               ],
             ),
           ),
