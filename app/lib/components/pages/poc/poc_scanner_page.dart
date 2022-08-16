@@ -8,14 +8,14 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart';
 import 'package:web3dart/web3dart.dart';
 
-class PocRepayPage extends StatefulWidget {
-  const PocRepayPage({Key? key}) : super(key: key);
+class PocScannerPage extends StatefulWidget {
+  const PocScannerPage({Key? key}) : super(key: key);
 
   @override
-  State<PocRepayPage> createState() => _PocRepayPageState();
+  State<PocScannerPage> createState() => _PocScannerPageState();
 }
 
-class _PocRepayPageState extends State<PocRepayPage> {
+class _PocScannerPageState extends State<PocScannerPage> {
   late num _balanceUSDM = 0.00;
   late USDMDeFiService deFi;
   late Client httpClient;

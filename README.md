@@ -8,6 +8,9 @@ In the spirit of transparency for our community, we are making our GitHub public
 
 Follow the instructions below to launch the TraderWallet application and view progress of the project towards the first milestone of the lite wallet.  
 
+# Flutter project
+
+*Open the `app` folder using Android Studio IDE
 
 # Installing Flutter
 

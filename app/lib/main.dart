@@ -1,6 +1,6 @@
-import 'package:app/components/pages/poc/poc_collateralize_page.dart';
+import 'package:app/components/pages/poc/poc_bot_page.dart';
 import 'package:app/components/pages/poc/poc_ethereum_wallet_page.dart';
-import 'package:app/components/pages/poc/poc_repay_page.dart';
+import 'package:app/components/pages/poc/poc_scanner_page.dart';
 import 'package:app/config.dart';
 import 'package:app/models/user_data.dart';
 import 'package:app/services/wallet_service.dart';
@@ -39,8 +39,8 @@ class MyApp extends StatelessWidget {
           body: const TabBarView(
             children: [
               PocEthereumWalletPage(title: Config.appTitle),
-              PocCollateralizePage(),
-              PocRepayPage()
+              PocBotPage(),
+              PocScannerPage()
             ],
           )
         ),

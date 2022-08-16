@@ -10,14 +10,14 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart';
 import 'package:web3dart/web3dart.dart';
 
-class PocCollateralizePage extends StatefulWidget {
-  const PocCollateralizePage({Key? key}) : super(key: key);
+class PocBotPage extends StatefulWidget {
+  const PocBotPage({Key? key}) : super(key: key);
 
   @override
-  State<PocCollateralizePage> createState() => _PocCollateralizePageState();
+  State<PocBotPage> createState() => _PocBotPageState();
 }
 
-class _PocCollateralizePageState extends State<PocCollateralizePage> {
+class _PocBotPageState extends State<PocBotPage> {
 
   late Client httpClient;
   late Web3Client ethClient;
